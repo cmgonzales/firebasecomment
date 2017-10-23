@@ -1,0 +1,15 @@
+.input{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+#comment{
+    margin-top: 50px;
+}
+#input{
+    margin-bottom: 10px;
+}
+body{
+    background-image: url("img/com.jpg");
+    background-size: cover;
+}
