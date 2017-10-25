@@ -13,3 +13,13 @@ body{
     background-image: url("img/com.jpg");
     background-size: cover;
 }
+
+#foo{
+    
+    margin: 0 auto;
+    width: 50%;
+    
+}
+button{
+    margin-bottom: 20px;
+}

@@ -1,25 +1,23 @@
 function send(){
 
-    console.log("clicked");
 
-var foo =  document.getElementById("foo");
-var  x =  document.getElementById("comment")
 // grabing info
-var input = document.getElementById("input").value;
+ var input = document.getElementById("input").value;
 var msg = document.getElementById("text").value;
 
 //creating a new element 
-var name = document.createElement("h4")
-var comment = document.createElement("p");
+ var name = document.createElement("h4");
+ var comment = document.createElement("p");
 
- name.setAttribute("value", input);
- name.innerHTML = html;
+ var content = document.createTextNode("Name: " + input)
+ var message = document.createTextNode("Message: " + msg)
  //append a child
 
- foo.appendChild(name);
+ name.appendChild(content);
+ comment.appendChild(message);
 
+ document.getElementById("foo").appendChild(name);
+ document.getElementById("foo").appendChild(comment);
  
-
-
-
+ $("#foo").css("border","2px solid black");
 }
