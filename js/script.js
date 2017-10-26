@@ -1,6 +1,5 @@
 function send(){
 
-
 // grabing info
  var input = document.getElementById("input").value;
 var msg = document.getElementById("text").value;
@@ -19,5 +18,5 @@ var msg = document.getElementById("text").value;
  document.getElementById("foo").appendChild(name);
  document.getElementById("foo").appendChild(comment);
  
- $("#foo").css("border","2px solid black");
+ $("#foo").css("border","3px solid black");
 }
