@@ -1,3 +1,5 @@
+var comment = [];
+
 function send(){
 
 // grabing info
@@ -10,6 +12,9 @@ var msg = document.getElementById("text").value;
 
  var content = document.createTextNode("Name: " + input)
  var message = document.createTextNode("Message: " + msg)
+
+
+ var attach = content + message
  //append a child
 
  name.appendChild(content);
@@ -17,6 +22,8 @@ var msg = document.getElementById("text").value;
 
  document.getElementById("foo").appendChild(name);
  document.getElementById("foo").appendChild(comment);
- 
- $("#foo").css("border","3px solid black");
+
+ $("div").css("border","solid 1px green")
 }
+
+
